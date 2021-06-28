@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu__body">
+            <ul class="header__list">
+                <li class="header__list__item"><img class="header__img" src="./png/logo-colored-2.png" alt="logo_nav"></li>
+                <li class="header__list__item"><a data-goto=".swiper__nav" class="menu__link nav_activ"
+                            href="#swiper">ПЕРВЫЙ ЭКРАН</a></li>
+                <li class="header__list__item"><a data-goto=".science__nav" class="menu__link"
+                            href="#science">ВСТУПЛЕНИЕ</a></li>
+                <li class="header__list__item"><a data-goto=".section__img__nav" class="menu__link"
+                            href="#section__img">ИНФОГРАФИКА</a></li>
+                <li class="header__list__item"><a data-goto=".performance__nav" class="menu__link"
+                            href="#performance">ПРОИЗВОДИТЕЛЬНОСТЬ </a></li>
+                <li class="header__list__item"><a data-goto=".webcontact__nav" class="menu__link"
+                            href="#webcontact">КОНТАКТЫ </a></li>
+                <li class="header__list__item"><a data-goto=".webcontact__nav" class="menu__link"
+                            href="#webcontact"><span class="header__list__item__span">+38 (096) 622 86 13    +38 (096) 622 86 13 </span> </a></li>
+                <li class="header__list__item__lng">
+                            <button class="btn cursor-pointer">EN <span>|</span></button>
+                            <button class="btn cursor-pointer">UA <span>|</span></button>
+                            <button class="btn cursor-pointer">RU</button>
+                </li>
+            </ul>
+      </nav>
+      <button class="header__menu-mob cursor-pointer">
+        <img class="header__menu-mob__img" src="./svg/menu.svg" alt="logo__menu">
+      </button>
+      <nav class="body__mobile">
+        <ul class="list__mobile">
+                <li class="header__list__item__mobile"><a data-goto=".swiper__nav" class="menu__link nav_activ"
+                            href="#swiper">ПЕРВЫЙ ЭКРАН</a></li>
+                <li class="header__list__item__mobile"><a data-goto=".science__nav" class="menu__link"
+                            href="#science">ВСТУПЛЕНИЕ</a></li>
+                <li class="header__list__item__mobile"><a data-goto=".section__img__nav" class="menu__link"
+                            href="#section__img">ИНФОГРАФИКА</a></li>
+                <li class="header__list__item__mobile"><a data-goto=".performance__nav" class="menu__link"
+                            href="#performance">ПРОИЗВОДИТЕЛЬНОСТЬ </a></li>
+                <li class="header__list__item__mobile"><a data-goto=".webcontact__nav" class="menu__link"
+                            href="#webcontact">КОНТАКТЫ </a></li>
+                <li class="header__list__item__lng__mobile">
+                            <button class="btn cursor-pointer">EN <span>|</span></button>
+                            <button class="btn cursor-pointer">UA <span>|</span></button>
+                            <button class="btn cursor-pointer">RU</button>
+                </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="swiper" class="swiper swiper__nav">
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./png/1.png" alt="slide1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./png/2.png" alt="slide2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./png/3.png" alt="slide3">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+          <div class="swiper-slide_in">
+            <img class="logo_colored_swiper" src="./png/logo-colored-3.png" alt="logo">
+            <h2 class="swiper__item">Frontend-разработчики</h2>
+          </div>
+
+          <div class="swiper_button">
+            <button class="swiper-butt butt1 cursor-pointer">
+                <span class="swiper_button_item1">да, должны </span>
+            </button>
+            <button class="swiper-butt butt2 cursor-pointer">
+                <span class="swiper_button_item2">конечно, должны</span>
+            </button>
+          </div>
+
+          <div class="swiper_button_1">
+              <button class="swiper_button_second1 cursor-pointer">Share</button>
+              <a href="#" class="button_media cursor-pointer"><img src="./png/invalid-name.png" alt="twitter"></a>
+              <a href="#" class="button_media cursor-pointer"><img src="./png/invalid-name1.png" alt="facebook"></a>
+          </div>
+    </section>
+    
+
+    <section id="science" class="science science__nav">
+        <div class="science__fixed container_fixed">
+            <img class="rocket" src="./png/logo-colored.png" alt="logo__text">
+            <h2 class="science__fixed__text">Мысли Криса Койера</h2>
+        </div>
+        <div class="science__text container">
+            <p class="science__text__item">Одна из мыслей, которая поселилась в моей голове: <b>должен ли frontend- разработчик быть в курсе всего?</b> </p>
+                <br>
+            <p class="science__text__item">В общем смысле, frontend-разработчик может использоваться и на других рабочих местах. Вся команда разработчиков заканчивает разговор на frontend-разработчике. В этом смысл моей идеи. </p>
+                <br>
+            <p class="science__text__item">Frontend-разработчики создают те вещи, с которыми будут взаимодействовать люди. Все этапы разработки проходят вместе с frontend-разработчиком. Возможно, именно поэтому это такая забавная работа! </p>
+                <br>
+            <p class="science__text__item">Поскольку frontend-разработчик занимает центральное место в цепочке разработки, и при этом мы имеем дело с большим количеством разных специалистов, мы должны понимать их работу и иногда подсказывать, что 
+                и как сделать лучше. </p>
+                <br>
+            
+            <h2 class="text__block animation _anim-items">Frontend-разработчик должен разбираться в дизайне</h2>
+
+            <br>
+
+            <p class="science__text__item">Если frontend-разработчик не является сам по себе дизайнером, он должен знать, насколько важен дизайн. Он должен иметь хороший вкус. Он должен знать об инструментах, участвующих непосредственно в разработке.</p>
+                <br>
+            <p class="science__text__item"><b>Frontend-разработчик должен разбираться в работе серверной части (backend)</b></p>
+                <br>
+            <p class="science__text__item">Даже если вы и не backend-разработчик, то вы явно осознаёте всю важность серверной части. Вы понимаете, с чем взаимодействует backend, что передается на сервер, а что нет. Вы знаете об обязанностях backend-разработчика. Вы понимаете, какой язык используется на сервере, и при этом должны уметь объяснить, что должен дать вам backend и что нужно от серверной части frontend-а.</p>
+                <br>
+            <p class="science__text__item"><b>Frontend-разработчик должен разбираться в работе сетей</b></p>
+                <br>
+            <p class="science__text__item">Frontend-разработчик понимает, что сайты располагаются в интернете, данные передаются по сети, и что сеть — это дикое и непредсказуемое. Необходимо понимать, какие бывают сети, как они работают, и насколько они бывают быстрые и надежные.</p>
+        </div>
+        <div class="swiper_button_2">
+            <button class="swiper_button_second2 cursor-pointer">Share</button>
+            <a href="#" class="button_media cursor-pointer"><img src="./png/invalid-name.png" alt="twitter"></a>
+            <a href="#" class="button_media cursor-pointer"><img src="./png/invalid-name1.png" alt="facebook"></a>
+        </div>
+    </section>
+
+    <section id="section__img" class="section__img section__img__nav">
+        <div class="computer">
+            <img class="computer__img" src="./png/html.png" alt="html">
+            <img class="computer__img" src="./png/css.png" alt="css">
+            <img class="computer__img" src="./png/js.png" alt="js">
+        </div>
+            <ul class="scetion__all">
+                <li class="section__text">
+                    <p class="computer__number">1</p>
+                    <div>
+                        <p class="computer__title">HTML 5</p>
+                        <p class="computer__text">HyperText Markup Language</p>
+                    </div>
+                </li>
+                <li class="section__text comp__text2">
+                    <p class="computer__number">2</p>
+                    <div>
+                        <p class="computer__title">CSS</p>
+                        <p class="computer__text">Cascading Style Sheets</p>
+                    </div>
+                </li>
+                <li class="section__text comp__text3">
+                    <p class="computer__number">3</p>
+                    <div>
+                        <p class="computer__title">JS </p>
+                        <p class="computer__text">JavaScript</p>
+                    </div>
+                </li>
+            </ul>
+    </section>
+
+    <section id="performance" class="performance performance__nav">
+        <div class="performance__block">
+            <h2 class="performance__item">Frontend-разработчик должен разбираться в производительности</h2>
+        </div>
+        <div class="block1">
+            <div class="block1__block">
+                <h2 class="performance__block1 animation _anim-items"><span class="performance__block1__text">Performance Matters</span></h2>
+                <p class="performance__text">производительность имеет важное место в успехе вашего проекта</p>
+                <button class="performance__button cursor-pointer"><span class="performance__button__span">подробнее</span></button>
+            </div>
+    
+            <img class="performance__img" src="./png/23.png" alt="img">
+        </div>
+        <div class="block2">
+            <img class="performance__img2" src="./png/24.png" alt="img">
+            
+            <div class="block2__block">
+                <h2 class="performance__block2 animation _anim-items"><span class="performance__block2__text">Тонкости</span></h2>
+                <p class="performance__text2">Необходимо понимать насколько быстрым должен быть backend</p>
+                <button class="performance__button1 cursor-pointer"><span class="performance__button__span">подробнее</span></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="webcontact" class="webcontact webcontact__nav">
+        <img class="webcontact__back" src="./png/back_nout.png" alt="nout">
+        <div class="webcontact__all">
+            <div class="contact">
+                <h3 class="contact__item">контакты</h3>
+            <ul class="list">
+                <li class="list__item">
+                    <img class="list__item__img" src="./png/map.png" alt="map">
+                    <p class="list__item__text1">18000, Украина, г. Черкассы,
+                        <br>
+                        ул. Героев Сталинграда 42/1</p>
+                </li>
+                <li class="list__item">
+                    <img class="list__item__img" src="./png/mobile.png" alt="mobile">
+                    <a href="#" class="list__item__text list__text__ada">
+                        <span>+38 (096) 622 86 13</span> 
+                        <br>
+                        <span>+38 (096) 622 86 13</span> 
+                    </a>
+                </li>
+                <li class="list__item">
+                    <img class="list__item__img list__img" src="./png/mail.png" alt="mail">
+                    <a href="#" class="list__item__text">web@rubarbs.com</a>
+                </li>
+                <li class="list__item">
+                    <img class="list__item__img" src="./png/planet.png" alt="planet">
+                    <a href="#" class="list__item__text">rubarbs.com</a>
+                </li>
+            </ul>
+            </div>
+            <div class="contact__form">
+                <h3 class="contact__item item__text">напишите нам</h3>
+                <form class="form" method="POST">
+                    <ul>
+                        <div class="form__li">
+                            <li class="form__li__input">
+                                <label for="ИМЯ">
+                                    <input type="text" id="name" name="userName" placeholder="ИМЯ">
+                                </label>
+                            </li>
+                            <li class="form__li__input">
+                                <label for="ТЕЛЕФОН">
+                                    <input type="text" id="phone" name="userPhone" placeholder="ТЕЛЕФОН">
+                                </label>
+                            </li>
+                            <li class="form__li__input">
+                                <label for="EMAIL">
+                                    <input type="email" id="email" name="userEmail" placeholder="EMAIL">
+                                </label>
+                            </li>
+                        </div>
+                        <li>
+                            <label for="СООБЩЕНИЕ">
+                                <textarea class="form__textarea" id="message" name="userMessage" placeholder="СООБЩЕНИЕ"></textarea>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="form__footer">
+                        <button class="form_button cursor-pointer"><span class="form_button__text">отправить</span></button>
+                        <p class="form__footer__text"> Спасибо за сообщение! Мы обязательно  свяжемся с Вами.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__block">
+            <img class="footer__block__img" src="./png/logo_rocket_footer.png" alt="logo">
+            <div class="footer__block__button">
+                <a class="footer__button" href="#" target="_blank"><img src="./png/youtube_footer.png" alt="youtube"></a>
+                <a class="footer__button" href="#" target="_blank"><img src="./png/facebook_footer.png" alt="facebook"></a>
+                <a class="footer__button" href="#" target="_blank"><img src="./png/twitter_footer.png" alt="twitter"></a>
+            </div>
+        </div>
+        <p class="end__text">&copy; 2017 «Frontend» |  сайт разработан в RUBARD DIGITAL</p>
+    </footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
